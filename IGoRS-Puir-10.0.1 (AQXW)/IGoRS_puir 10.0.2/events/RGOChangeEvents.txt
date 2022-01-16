@@ -49,7 +49,6 @@ country_event = {
 						NOT = { total_pops = 1000000 }
 						year = 1911
 					}
-				NOT = { OR = { 464 478 524 397 380 256 611 318 797 669 671 841 868 1768 1143 993 2427 2257 2214 2310 2295 2379 } }
 				}
 				is_colonial = no
 			}
@@ -99,7 +98,6 @@ country_event = {
 						NOT = { total_pops = 1000000 }
 						year = 1911
 					}
-				NOT = { OR = { 464 478 524 397 380 256 611 318 797 669 671 841 868 1768 1143 993 2427 2257 2214 2310 2295 2379 } }
 				}
 				is_colonial = no
 			}
@@ -131,29 +129,25 @@ country_event = {
 						total_pops = 10000
 						NOT = { total_pops = 1000000 }
 						NOT = { year = 1861 }
-								}
+					}
 					AND = {
 						total_pops = 20000
 						NOT = { total_pops = 1000000 }
 						year = 1861
 						NOT = { year = 1886 }
-								}
+					}
 					AND = {
 						total_pops = 30000
 						NOT = { total_pops = 1000000 }
 						year = 1886
 						NOT = { year = 1911 }
-								}
+					}
 					AND = {
 						total_pops = 40000
 						NOT = { total_pops = 1000000 }
 						year = 1911
-								}
-						}
-					NOT = { AND = { 
-						OR = { 464 478 524 397 380 256 611 318 797 669 671 841 868 1768 1143 993 2427 2257 2214 2310 2295 2379 }
-						year = 1880	} }
-					
+					}
+				}
 				is_colonial = no
 			}
 			

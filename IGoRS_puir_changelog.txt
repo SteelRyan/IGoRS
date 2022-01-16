@@ -1,4 +1,14 @@
 Last update 15.01.22
+--------------------------
+Changes for 10.0.2 - hotfix
+
+-Laisssez fair bonuses got reduced to:
+		-7.5% input
+		 7.5% output
+		  
+-fixed a bug breaking the change rgo events
+
+--------------------------
 Changes for 10.0.1
 
 ----ITALY----

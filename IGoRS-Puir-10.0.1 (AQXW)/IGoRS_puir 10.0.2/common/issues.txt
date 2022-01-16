@@ -18,8 +18,8 @@ party_issues = {
 			max_tax = 0.6
 			global_immigrant_attract = 0.02  #2% , go where my stuff wont be stolen by the state
 			factory_owner_cost = 0.3
-			factory_output = 0.15
-			factory_input = -0.15
+			factory_output = 0.075
+			factory_input = -0.075
 			
 			rules = {
 				build_factory = no
