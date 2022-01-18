@@ -83,7 +83,7 @@ Changes for 10.0.1
 		Heavy Cruiser old 		0.25CP = 1SS 		Heavy Cruiser now 				0.85CP = 1SS 
 		Light Cruiser old 		0.40CP = 1SS 		Light Cruiser now 				0.90CP = 1SS 
 		Destroyer old 			0.50CP = 1SS 		Destroyer now 					1.00CP = 1SS
-		ironclad //				1.20CP = 1SS 		ironclad //						The same as before
+		ironclad //			1.20CP = 1SS 		ironclad //					The same as before
 		commer raider //		1.00CP = 1SS 		commer raider //				The same as before
 				
 ----MAP CHANGES----
