@@ -3,7 +3,8 @@ Last update 18.01.22
 Changes for 10.0.3 - update
 
 -All new world nation now stat with no Laissez fair parties
-		Laissez fair parties automatically appear around 1865	
+		Laissez fair parties automatically appear around 1865
+-Reverted last versions Laissez fair changes
 -Implimented a system for the host to select and unsiege a country via the click of a decision
 -China now gains 60% researchpoints from conquest
 -Added the new concessions cb for Japan to the executions order list
