@@ -1,6 +1,7 @@
 political_decisions = {
 
 	german_lapse_1 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = SAX
@@ -31,42 +32,12 @@ political_decisions = {
 	}
 	
 		german_lapse_2 = {
-		potential = {
-			tag = PRU
-			exists = HAN
-			NOT = { has_country_flag = HAN_conquest }
-			NOT = { exists = SAX }
-		}
-		
-		allow = {
-			exists = HAN
-			HAN = { in_sphere = THIS }
-			war = no
-			HAN = { war = no }
-		}
-		
-		effect = {
-			HAN = {
-				country_event = 954954
-			}
-			badboy = 10
-			set_country_flag = HAN_conquest
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { badboy = 10.1 }
-			}
-		}
-	}
-	
-		german_lapse_3 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = HAM
 			NOT = { has_country_flag = HAM_conquest }
-			NOT = { exists = HAN }
+			NOT = { exists = SAX }
 		}
 		
 		allow = {
@@ -92,12 +63,45 @@ political_decisions = {
 		}
 	}
 	
+		german_lapse_3 = {
+		picture = central_europe
+		potential = {
+			tag = PRU
+			exists = HAN
+			NOT = { has_country_flag = HAN_conquest }
+			NOT = { exists = HAM }
+		}
+		
+		allow = {
+			exists = HAN
+			HAN = { in_sphere = THIS }
+			war = no
+			HAN = { war = no }
+		}
+		
+		effect = {
+			HAN = {
+				country_event = 954954
+			}
+			badboy = 10
+			set_country_flag = HAN_conquest
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { badboy = 10.1 }
+			}
+		}
+	}
+	
 		german_lapse_4 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = LUB
 			NOT = { has_country_flag = LUB_conquest }
-			NOT = { exists = HAM }
+			NOT = { exists = HAN }
 		}
 		
 		allow = {
@@ -111,7 +115,7 @@ political_decisions = {
 			LUB = {
 				country_event = 954954
 			}
-			badboy = 5
+			badboy = 2.5
 			set_country_flag = LUB_conquest
 		}
 		ai_will_do = {
@@ -124,6 +128,7 @@ political_decisions = {
 	}
 	
 		german_lapse_5 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = FRM
@@ -142,7 +147,7 @@ political_decisions = {
 			FRM = {
 				country_event = 954954
 			}
-			badboy = 5
+			badboy = 2.5
 			set_country_flag = FRM_conquest
 		}
 		ai_will_do = {
@@ -155,6 +160,7 @@ political_decisions = {
 	}
 	
 		german_lapse_6 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = MEC
@@ -186,6 +192,7 @@ political_decisions = {
 	}
 	
 		german_lapse_7 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = LIP
@@ -217,6 +224,7 @@ political_decisions = {
 	}
 	
 		german_lapse_8 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = HOL
@@ -248,6 +256,7 @@ political_decisions = {
 	}
 	
 		german_lapse_9 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = ANH
@@ -279,6 +288,7 @@ political_decisions = {
 	}
 	
 		german_lapse_10 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = OLD
@@ -310,6 +320,7 @@ political_decisions = {
 	}
 	
 		german_lapse_11 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = MEI
@@ -341,6 +352,7 @@ political_decisions = {
 	}
 	
 		german_lapse_12 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = BRE
@@ -359,7 +371,7 @@ political_decisions = {
 			BRE = {
 				country_event = 954954
 			}
-			badboy = 5
+			badboy = 2.5
 			set_country_flag = BRE_conquest
 		}
 		ai_will_do = {
@@ -372,6 +384,7 @@ political_decisions = {
 	}
 	
 		german_lapse_13 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = COB
@@ -402,6 +415,7 @@ political_decisions = {
 		}
 	}
 		german_lapse_14 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = WEI
@@ -433,6 +447,7 @@ political_decisions = {
 	}
 	
 		german_lapse_15 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = NAS
@@ -464,6 +479,7 @@ political_decisions = {
 	}
 	
 		german_lapse_16 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = HEK
@@ -495,6 +511,7 @@ political_decisions = {
 	}
 	
 		german_lapse_17 = {
+		picture = central_europe
 		potential = {
 			tag = PRU
 			exists = HES

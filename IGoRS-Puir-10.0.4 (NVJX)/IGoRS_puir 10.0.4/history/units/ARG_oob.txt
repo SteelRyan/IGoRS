@@ -1,7 +1,7 @@
 CHL = { value = -75 }
 URU = { value = -75 }
 PRG = { value = -75 }
-PEU = { value = -75 }
+PEU = { value = -90 }
 ECU = { value = -75 }
 VNZ = { value = -75 }
 UCA = { value = -75 }

@@ -1,9 +1,25 @@
-Last update 18.01.22
+Last update 19.01.22
+Changes for 10.0.4 - update
+
+-Removed Paraguays 5% LARP mobilization buff (some hpm bullshit event getting them up to 30 mobos)
+-Added another 0.7 speed increase for destroyes to sealane hunters invention 
+-Removed Yakut culture and replaced/united it with siberian minor (performance)
+-Unsiege system! (the host may now unsiege any nation instantly via a decision of Lichtenstein)
+-China now gets 60% rp from conquest
+-All new world nations now have no laissez faire parties until 1865 (replaced with interventionist policiy)
+-Lübeck frankfurt and bremen now cost 2.5 infamy to annex via decision
+-Made laps decision pictures for Germany
+-Fixed a laps annexation mistake (HAN and HAM were placed in the wrong order)
+-Fixed The negative AI relations starting setup (accidentiliy deleted when reverting naval unit oobs)
+-Added new cb (japan concession) to cb execution list
+-ANOTHER Italy formation fix
+
 --------------------------
 Changes for 10.0.3 - update
 
 -All new world nation now stat with no Laissez fair parties
 		Laissez fair parties automatically appear around 1865	
+-Reverted last versions Laissez fair changes
 -Implimented a system for the host to select and unsiege a country via the click of a decision
 -China now gains 60% researchpoints from conquest
 -Added the new concessions cb for Japan to the executions order list

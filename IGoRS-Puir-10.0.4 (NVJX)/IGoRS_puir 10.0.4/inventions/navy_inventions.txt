@@ -453,6 +453,9 @@ sealane_hunters = {
 		ironclad = {
 			maximum_speed = 0.5
 		}
+		monitor = {
+			maximum_speed = 0.7
+		}
 		battleship = {
 			maximum_speed = 0.4
 		}

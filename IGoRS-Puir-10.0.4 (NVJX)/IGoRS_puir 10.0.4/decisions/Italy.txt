@@ -151,6 +151,7 @@ political_decisions = {
 			ARG = {
 				war = no
 			}
+			year = 1850
 		}
 		
 		effect = {

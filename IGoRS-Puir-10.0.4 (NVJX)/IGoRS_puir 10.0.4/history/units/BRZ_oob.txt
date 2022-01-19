@@ -1,3 +1,11 @@
+CHL = { value = -75 }
+URU = { value = -75 }
+PRG = { value = -75 }
+PEU = { value = -75 }
+ECU = { value = -75 }
+VNZ = { value = -75 }
+UCA = { value = -75 }
+
 leader = {
 	name = "Manuel Blanco"
 	picture = aus_gen_windischgraetz
