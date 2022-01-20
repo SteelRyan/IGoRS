@@ -1,4 +1,9 @@
-Last update 19.01.22
+Last update 20.01.22
+Changes for 10.0.5 - hotfix
+
+-Japan cb fix	(cb_cost_factor from 2 to 2.5) (from a minimum of 5 to a minimum of 7 wars to annex japan)
+
+--------------------------
 Changes for 10.0.4 - update
 
 -Removed Paraguays 5% LARP mobilization buff (some hpm bullshit event getting them up to 30 mobos)

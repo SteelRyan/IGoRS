@@ -2313,7 +2313,7 @@ demand_concession_casus_belli_japan = {
 	
 	badboy_factor = 1.0
 	prestige_factor = 0.1
-	peace_cost_factor = 2
+	peace_cost_factor = 2.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
