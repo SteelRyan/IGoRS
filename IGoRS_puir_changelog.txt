@@ -1,6 +1,9 @@
 Last update 20.01.22
-Changes for 10.0.5 - hotfix
+Changes for 10.0.6 - hotfix
 
+-Atacama region overlap fix
+--------------------------
+Changes for 10.0.5 - hotfix
 -Japan cb fix	(cb_cost_factor from 2 to 2.5) (from a minimum of 5 to a minimum of 7 wars to annex japan)
 
 --------------------------
