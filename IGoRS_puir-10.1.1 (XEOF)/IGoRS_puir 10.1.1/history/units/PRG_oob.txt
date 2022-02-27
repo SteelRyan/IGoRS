@@ -1,0 +1,127 @@
+CHL = { value = -200 }
+URU = { value = -200 }
+PEU = { value = -200 }
+ECU = { value = -200 }
+VNZ = { value = -200 }
+UCA = { value = -200 }
+CLM = { value = -200 }
+BRZ = { value = -200 }
+ARG = { value = -200 }
+BOL = { value = -200 }
+
+leader = {
+	name = "Manuel Blanco"
+	picture = aus_gen_windischgraetz
+	date = 1826.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Jose Joaquú‹ Prieto"
+	picture = aus_gen_rukavina
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Manuel Bulnes"
+	picture = aus_gen_nugent
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+army = {
+	name = "1. Army"
+	location = 2339
+	regiment = {
+		name= "1. División de Infanteru"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "2. División de Infanteru"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "3. División de Infanteru"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "4. División de Infanteru"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "5. División de Infanteru"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "3. Artillery"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "4. Artillery"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "5 Artillery"
+		type = artillery
+		home = 2339
+	}
+
+}
+
+army = {
+	name = "2. Army"
+	location = 2340
+	regiment = {
+		name= "1. División de Infanteru"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "2. División de Infanteru"
+		type = artillery
+		home = 2339
+	}
+	
+	regiment = {
+		name= "3. División de Infanteru"
+		type = artillery
+		home = 2339
+	}
+
+}
+

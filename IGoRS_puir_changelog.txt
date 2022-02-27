@@ -1,4 +1,98 @@
-Last update 20.01.22
+Last update 27.02.22
+Changes for 10.1.1 - Minor Update
+
+----GAME QUALITY AND BUG FIXES----
+
+-Deactivated a lot of generic decisions for Lichtenstein
+-Checked and cleaned all european meme river crossings
+-The three Checks Graphic now uses the new host nation flag
+-Added generic names to 3 Checks display
+-Gave the debug islands to lichtenstein and made the polar bears swiss
+-Tweaked the unsiege system so the unsiege event has a no option always picked by AI nations
+-Unit count overlay for spliting armies
+-Fixed the colonisation notification event (multiple events on, no fire only once)
+-Tweaked the iwakawa mission, after Japan activates it every GP gets a decision to accept the iwakawa mission for 100k limited to one year
+-Removed newspapers
+-France can now see the French Empire decision before the activation date
+-Set settings file to Borderless mode (fullScreen=no, borderless=yes) 					(Credit to Pancake and Potat)
+-Added Canada core to one more newfoundland province (oversight)						(Full credit to Pancake)
+-Removed Meme River crossing from Poltava to Krivoy Rog (provinces do not connect)		(Full credit to Pancake)
+-Found and fixed another illegal crossing from Vilnius (lithuania) to Daugavpils (latvia)
+-Fixed the invention modifiers of expanisonism (badboy = 5 to badboy = 0.5) (aparently 1 badboy is 25 infamy )
+-Fixed HAN and HAM laps decision localisation
+
+----NGF----
+
+-NGF automatic laps formation is now delayed to 1865 (assuming no manual annexations)
+-NGF nation annexation is now 2.5 Infamy for every NGF minor under 100k pops
+
+----AUSTRIA----
+
+-Removed the prestige requirement for accept croat and slovene for KUK
+-Removed the requirement for KUK to not own parts of bavaria to gain croatian accepted
+-Austria Hungary can now form once Italy formed
+
+----North and South America----
+
+-Combined US States
+-Venezuela State overhaul(Miranda and Bolivar state united and two provinces split of to Zulia state)
+			(VNZ consists now of two ~200k pop states)
+-Reverted South America LR changes
+-GCO and PBC now have the option of changing their capital after forming
+-Reverted the Paraguay 5% mobo buff but ALL South American nations start now with -200 relations (unable to ally it)
+
+----OTTOMANS----
+
+-Ottomans no longer lose their cores on europe when choosing for the Arabian route	(Full credit to Pancake)
+
+----ITALY----
+
+-Removed all LR gain from the Italy formation
+-Slowed the Italian formation (6 instead of 4 year jumps between formation dates) (from 40-44-48-52-56 to 42-48-54-60-66) 
+
+----INDIA----
+
+-Switched provinces between India and the UK so they allign well with State lines (reduces enclave/exclave issues)
+-Slightly adjusted the State borders of The united provinces and Bihar for focus point use balance
+
+----NAVAL----
+-Reduced navy supply consumption by 20%
+-Destroyers and Heavy Cruiser are now clasified as light ships (no Tropedo damage)
+
+----UNCIVS----
+-Uncivs can now unlock Dragoons, Hussars and Cuirassier pre westernization
+-Made a clear no invention for uncivs modifier (previously it didnt show why a inevntion was impossible to be invented)
+-All Uncivs now get RP from conquest without taking a mil reform
+-Fixed the RP from onquest for all nations (China gets 1600 RP from taking south bengal as a reference)
+-uncivilized isolationism now gives a -0.05 War exhaustion buff and no longer reduces pop conciousness by -0.05
+
+----OTHER GAMEPLAY CHANGES----
+
+-Added new Straits and edited the existing bonuses to make sure over 100% taxation into starvation cant happen anymore
+
+	-new Straits
+			bab_el_mandab_strait 	- max tariff +2% and tax efficiency +5%
+			sunda_strait			- max tariff +2% and tax efficiency +5%
+			bosphorus_strait		- navy supply consumption -5% and max tariff +2%									(Unlocks 1880)
+			malacca_strait			- navy supply consumption -5% and max tariff +2%									(Unlocks 1880)
+			gibraltar_strait		- navy supply consumption -5% and max tariff +2%									(Unlocks 1880)
+
+	-Changed Straits and Canals
+				hormuz_strait			- max tariff +2% and tax efficiency +5%
+				kiel_canal				- navy supply consumption -5% and max tariff +2%
+				suez_canal				- max tariff +2% and -0.5% Factory input +0.5% Factory output +0.01 Prestige	
+				panama_canal			- max tariff +2% and -0.5% Factory input +0.5% Factory output +0.01 Prestige
+					
+-Rescaled revanchism immigration penatly from (15-30-45-60-75-90-105-120-135-150) to (10-20-30-40-55-70-85-105-125-145)
+-Removed Prestige hit to decline call to arms
+-Removing a country from ones own sphere no longer gives 1 infamy and -10 prestige
+-Increased the percentage prestige loss from humiliation from 10% to 15% (base value of 25 + X% = total loss)
+-Converted Min culture in Vietnam to Vietnamese (7k pops exclusive to south vietnam no one accepts them or the Vietnamese so it has zero game impact)
+-Removed the prestige hit penalty when unasigning a army leader while at war (it is always 0)
+
+
+
+--------------------------
 Changes for 10.0.6 - hotfix
 
 -Atacama region overlap fix
