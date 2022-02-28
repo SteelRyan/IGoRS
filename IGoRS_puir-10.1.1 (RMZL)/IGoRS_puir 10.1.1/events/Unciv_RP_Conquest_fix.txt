@@ -1,0 +1,104 @@
+### Steel additions
+country_event = {
+	id = 90905
+	title = "Researchpoints Balance Event part 1"
+	desc = "Take this buff."
+	picture = "dixie"
+	
+	trigger = {
+			NOT = { civilized = yes }
+			NOT = { has_country_modifier = rp_buff }
+			NOT = { tag = CHI } 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = rp_buff
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 90908
+	title = "Researchpoints Balance Event part 2"
+	desc = "Alright, you civilized, lets remove this buff since it doesn't matter now."
+	picture = "dixie"
+	
+	trigger = {
+			civilized = yes
+			has_country_modifier = rp_buff
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		remove_country_modifier = rp_buff
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 90906
+	title = "Researchpoints Balance Event part 1"
+	desc = "Take this buff."
+	picture = "dixie"
+	
+	trigger = {
+			NOT = { civilized = yes }
+			NOT = { has_country_modifier = rp_buff_chi }
+			tag = CHI 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		add_country_modifier = {
+			name = rp_buff_chi
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+country_event = {
+	id = 90907
+	title = "Researchpoints Balance Event part 2"
+	desc = "Alright, you civilized, lets remove this buff since it doesn't matter now."
+	picture = "dixie"
+	
+	trigger = {
+			civilized = yes
+			has_country_modifier = rp_buff_chi
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Alright, sounds good."
+		remove_country_modifier = rp_buff_chi
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}

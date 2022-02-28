@@ -1,0 +1,56 @@
+# Events to remind the player about colonisation dates
+country_event = {
+
+	id = 200010 
+
+	trigger = {
+		ai = no
+		year = 1836
+		NOT = { year = 1870 }
+		NOT = { has_country_flag = colonial_note }
+	}
+ 
+	allow_multiple_instances = yes
+
+	mean_time_to_happen =  {
+		months = 0.5
+	}
+
+	title = "EVTNAME200010"
+	desc = "EVTDESC200010"
+	picture = "colonial_uprising"
+
+	option = {
+		name = "EVTOPTA200010"  
+		prestige = 1
+		set_country_flag = colonial_note
+	}
+}
+
+# Events to remind the player about colonisation dates
+country_event = {
+
+	id = 200011 
+
+	trigger = {
+		ai = no
+		year = 1870
+		has_country_flag = colonial_note
+	}
+ 
+	allow_multiple_instances = yes
+
+	mean_time_to_happen =  {
+		months = 0.5
+	}
+
+	title = "EVTNAME200010"
+	desc = "EVTDESC200010"
+	picture = "colonial_uprising"
+
+	option = {
+		name = "EVTOPTA200010"  
+		prestige = 1
+		clr_country_flag = colonial_note
+	}
+}

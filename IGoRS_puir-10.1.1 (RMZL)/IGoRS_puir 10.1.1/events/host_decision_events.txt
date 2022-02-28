@@ -1,0 +1,43 @@
+country_event = { 
+	id = 50004 
+	title = "Get kicked"
+	desc = "I am become death destroyer of worlds"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		add_country_modifier = get_kicked_lol
+
+	}
+	option = { 
+	name = "bye"
+	}
+}
+
+country_event = {
+	id = 476009
+	title = "EVTNAME476009"
+	desc = "EVTDESC476009"
+	picture = "native_force"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sounds good!"
+		THIS = {
+			any_owned = {
+				change_controller = { THIS }
+			}
+		}
+		THIS = { clr_country_flag = unsiege_this }
+		
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "HELL NA!"
+		THIS = { clr_country_flag = unsiege_this }
+		
+		ai_chance = { factor = 100 }
+	}
+}
