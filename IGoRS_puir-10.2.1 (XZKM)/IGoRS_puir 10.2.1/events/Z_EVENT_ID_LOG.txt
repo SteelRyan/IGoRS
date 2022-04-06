@@ -1,0 +1,1073 @@
+#EVENT ID#			#EVENT EFFECT#
+
+#####################
+#	FOLDER:	ACW		#
+#####################
+
+id = 16000			Starts US civilwar
+id = 16001			Sets Slavery debate country modifier
+id = 16010			More consciousness and militancy
+id = 16020			More consciousness and militancy
+id = 16030 			More consciousness
+id = 16040 			More consciousness
+id = 16050 			More consciousness
+id = 16060 			More consciousness
+id = 16070 			More consciousness
+id = 16080 			More consciousness
+id = 16090 			More consciousness
+id = 16100 			More consciousness or militancy
+id = 16110 			More consciousness
+id = 16120 			More consciousness
+id = 16130 			More consciousness
+id = 16140 			More consciousness or the underground_railroad province modifier
+id = 16150 			More consciousness or the copperhead_democrats province modifier
+id = 16160 			More consciousness
+id = 16170 			More consciousness
+id = 16180 			More consciousness or the free_stater province modifier
+id = 16190 			More consciousness or the border_ruffians province modifier
+id = 16200 			More consciousness and -5% State population hit
+id = 16210			-5% State population hit
+id = 16220 			More consciousness
+id = 16230 			-2% State population hit
+id = 16240 			-2% State population hit
+id = 16250 			More militancy and yes_slavery political support 
+id = 16300 			More consciousness and no_slavery political support 
+id = 16310 			More consciousness and no_slavery political support 
+id = 16400 			?American minors apply for statehood? annex event triggering nation ?redundancy?
+id = 16410 			Removes country modifier anaconda_plan under given conditions 
+id = 16410 			More consciousness and militancy
+id = 16420 			More militancy
+id = 16425 			More consciousness and militancy
+id = 16430 			Less consciousness and militancy and -50% population hit for dakota culture pop 
+id = 16440 			More militancy and -50% population hit for non native american culture pop in State
+id = 16445 			More militancy and the apache_raiders province modifier
+id = 16450 			Less consciousness and militancy and -20% population hit for Native american culture pop 
+id = 16451 			Adds a punch of goods to Texas stockpile (at game start)
+
+#################################
+#	FOLDER:	Apocalypse 1836		#
+#################################
+
+id = 999901  		Starts Event 999902 in 4 random countries
+id = 999902 		Adds zombie_outbreak province modifier in 3 random provinces and triggeres event 999918
+id = 999903  		Less consciousness more militancy and adds zombie_outbreak modifier to random port province in Europe
+id = 999904  		Less consciousness more militancy and adds zombie_outbreak modifier to random port province in Africa
+id = 999905  		Less consciousness more militancy and adds zombie_outbreak modifier to random port province in the Americas
+id = 999906  		Less consciousness more militancy and adds zombie_outbreak modifier to random port province in Asia or Oceania
+id = 999907  		Event to trigger a zombie outbreak in the Americas if there is a sufficient zombie presence in coastal Europe
+id = 999908  		Event to trigger a zombie outbreak in Europe if there is a sufficient zombie presence in the coastal Americas
+id = 999914  		Less militancy more consciousness and remove zombie_outbreak from target province
+id = 999915  		Less militancy and consciousness clears zombie_outbreak country flag and sets zombie_outbreak_victory flag
+id = 999916 		spread zombie_outbreak province modifier between adjacent provinces
+id = 999917 		spikes militancy and spreads zombie_outbreak province modifier (initial outbreak boost) (activates id 999918 )
+id = 999918 		Warns player of initial zombie outbreak 
+id = 999919 		Announces XYZ country is developing bioweapons
+#id = 999920 		sets experimental_bioweapon country modifier
+id = 999921 		Announces a country has finished developing bioweapons 
+id = 999922 		Announces the use of bioweapons by a country
+#id = 999923 		Removes bioweapons from a country
+id = 999924 		Total global defeat event removing all zombie_outbreak province modifiers
+id = 999928			Randomly restarts a zombie outbreak in a victorios zombie outbreak cleared province
+id = 999931			Event to use bioweapons
+
+#####################################
+#	FOLDER:	ApocalypseTerraNullius	#
+#####################################
+
+id = 99100			Changes the ownership of a zombie controlled province to the zombies
+id = 99101			Changes the ownership of a zombie controlled province to the zombies
+id = 99200			annexes certain limited tags to the sender of this event
+id = 99201			Stops the aquesition of more provinces after a size of 200 provinces has been achieved by zombie tags
+id = 99202			Restarts aquesition of zombie provinces 
+
+#############################
+#	FOLDER:	archaeology		#
+#############################
+
+id = 190401			Allow (id 190411) or Deny (id 190421) a Great Power excavation rights 
+id = 190411			Gives country modifier mycenaean_excavations and sets global flag mycenaean_excavation_rights
+id = 190421			Sets country flag greece_refused
+id = 190431			R
+id = 190441			R
+id = 190451			R
+id = 190461			R
+id = 1904012		R
+id = 1904112		R
+id = 1904212		R
+id = 1904312		R
+id = 1904412		R
+id = 1904612		R
+id = 1905101		R
+id = 1905201		R
+id = 1905301		R
+
+#########################
+#	FOLDER:	ARGFlavor	#
+#########################
+
+id = 46600 			R
+id = 46601			R
+id = 146603			R
+
+#################################
+#	FOLDER:	Asian Nerfs 7764xx	#
+#################################
+
+id = 776405 		R
+id = 776406			R
+#id = 776406		R
+
+#########################
+#	FOLDER:	BELFlavor	#
+#########################
+
+id = 36700			R
+id = 36701			R
+id = 36704			R
+id = 36705			R
+id = 36706			R
+id = 36709			R
+id = 36710			R
+id = 36711			R
+id = 36715			R
+id = 36716			R
+
+#####################################
+#	FOLDER:	bureaucrats_fix_event	#
+#####################################
+
+id = 40404040		R
+
+#########################
+#	FOLDER:	CBsAndCores	#
+#########################
+
+id = 2510			R
+id = 2520			R
+id = 2530			R
+id = 2540			R
+id = 2550			R
+id = 2600			R
+id = 2601			R
+id = 2605			R
+id = 2570			R
+
+#############################
+#	FOLDER:	China 7769xx	#
+#############################
+
+#id = 776901		R
+
+#####################
+#	FOLDER:	China	#
+#####################
+
+id = 90900			R
+id = 90901			R
+id = 90902			R
+id = 90903			R
+id = 90904			R
+#id = 90905			R
+#id = 90906			R
+
+#########################
+#	FOLDER:	CHLFlavor	#
+#########################
+
+id = 999100			R
+
+#########################################
+#	FOLDER:	CivilizationAndGunBoats 	#
+#########################################
+
+id = 13000			R
+id = 13010			R
+id = 13015			R
+id = 13020			R
+id = 13030			R
+id = 13040			R
+id = 13050			R
+id = 13055			R
+id = 13060			R
+id = 13065			R
+id = 13070			R
+id = 13080			R
+id = 13090			R
+id = 13100			R
+id = 13110			R
+id = 13120			R
+id = 13130			R
+id = 13140			R
+id = 13150			R
+id = 13160			R
+id = 13170			R
+id = 13180			R
+id = 13190			R
+id = 13200			R
+id = 13201			R
+id = 13210			R
+id = 13220			R
+id = 13230			R
+id = 13240			R
+id = 13250			R
+id = 13260			R
+id = 13270			R
+id = 13280			R
+id = 13290			R
+id = 13350			R
+id = 13355			R
+id = 13356			R
+id = 13357			R
+id = 13358			R
+id = 90910			R
+id = 90950			R
+
+######################################
+#	FOLDER:	craftsmen_fix_events	 #
+######################################
+
+id = 9999901		R
+
+#############################
+#	FOLDER:	custom_canals 	#
+#############################
+
+id = 77700			R
+
+##########################
+#	FOLDER:	Diseases	 #
+##########################
+
+id = 21000			R
+id = 21010			R
+id = 21020			R
+id = 21030			R
+id = 21040			R
+
+#################################
+#	FOLDER:	Dismantle Factory 	#
+#################################
+
+id = 2652			R
+
+##################################
+#	FOLDER:	eidur_uncivtechfix	 #
+##################################
+
+id = 999001			R
+id = 999002			R
+id = 999003			R
+id = 999004			R
+id = 999005			R
+id = 999006			%
+id = 999007			R
+id = 999008			R
+id = 999009			R
+id = 999010			R
+id = 999011			R
+id = 999012			R
+id = 999013			R
+id = 999014			R
+id = 999055			R
+id = 999056			R
+id = 999015			R
+id = 999016			R
+id = 999057			R
+id = 999058			R
+id = 999017			R
+id = 999018			R
+id = 999019			R
+id = 999020			R
+id = 999021			R
+id = 999022			R
+id = 999023			R
+id = 999024			R
+id = 999025			R
+id = 999026			R
+id = 999027			R
+id = 999028			R
+id = 999029			R
+id = 999030			R
+id = 999031			R
+id = 999032			R
+id = 999033			R
+id = 999034			R
+id = 999035			R
+id = 999036			R
+id = 999037			R
+id = 999038			R
+id = 999039			R
+id = 999040			R
+id = 999041			R
+id = 999042			R
+id = 999043			R
+id = 999044			R
+id = 999045			R
+id = 999046			R
+id = 999047			R
+id = 999048			R
+id = 999049			R
+id = 999050			R
+id = 999051			R
+id = 999052			R
+id = 999053			R
+id = 999054			R
+
+##############################
+#	FOLDER:	ElectionEvents	 #
+##############################
+
+id = 14000			R
+id = 14010			R
+id = 14020			R
+id = 14030			R
+id = 14040			R
+id = 14050			R
+id = 14060			R
+id = 14070			R
+id = 14080			R
+id = 14090			R
+id = 14100			R
+id = 14110			R
+id = 14120			R
+id = 14130			R
+id = 14140			R
+id = 14150			R
+id = 14160			R
+id = 14170			R
+id = 14180			R
+id = 14190			R
+id = 14200			R
+id = 14210			R
+
+#########################
+#	FOLDER:	FRAFlavor 	#
+#########################
+
+id = 37200			R
+id = 37201			R
+id = 37202			R
+id = 37203			R
+id = 37204			R
+id = 37205			R
+id = 37206			R
+id = 37207			R
+id = 37208			R
+id = 37209			R
+id = 37210			R
+id = 37211			R
+id = 37212			R
+id = 37213			R
+id = 37215			R
+id = 37216			R
+id = 37217			R
+id = 37218			R
+id = 37220			R
+id = 37221			R
+id = 37222			R
+id = 37223			R
+id = 37224			R
+id = 37225			R
+id = 37227			R
+
+##################################
+#	FOLDER:	GCO_core_disposal	 #
+##################################
+
+id = 476001			To dispose of the cores of Ecuador
+id = 476002			To dispose of the cores of Columbia
+id = 476003			To dispose of the cores of Venezuela
+id = 476004			To dispose of the cores of Panama
+
+#############################
+#	FOLDER:	General Events 	#
+#############################
+
+id = 600000			R
+id = 79797979		R
+id = 600001			R
+id = 600002			R
+id = 600003			R
+id = 600004			R
+id = 600005			R
+id = 600006			R
+id = 600007			R
+id = 600008			R
+id = 600009			R
+id = 600010			R
+id = 600010			R
+id = 600011			R
+id = 600012			R
+id = 600013			R
+id = 600014			R
+id = 600015			R
+id = 600016			R
+id = 600017			R
+id = 600018			R
+id = 600019			R
+id = 600020			R
+id = 600021			R
+id = 600022			R
+id = 600023			R
+id = 600024			R
+id = 600025			R
+
+#################################
+#	FOLDER:	german_lapse_test 	#
+#################################
+
+id = 954954			R
+id = 954955			R
+#id = 954956		R
+
+#####################################
+#	FOLDER:	Ghost_Country_Events	#
+#####################################
+
+id = 91303			R
+id = 91304			R
+id = 91305			R
+
+#####################
+#	FOLDER:	Goods 	#
+#####################
+
+id = 1100			R
+id = 1101			R
+id = 1102			R
+id = 1103			R
+id = 1139			R
+id = 1140			R
+id = 1141			R
+id = 1104			R
+id = 1000002		R
+id = 1000003		R
+id = 1000004		R
+id = 1105			R
+id = 1106			R
+id = 1000001		R
+id = 1107			R
+id = 1108			R
+id = 999998			R
+id = 999999			R
+id = 1000000		R
+id = 1109			R
+id = 1110			R
+id = 1111			R
+id = 1112			R
+id = 1113			R
+id = 1114			R
+id = 1115			R
+id = 1116			R
+id = 1117			R
+id = 1118			R
+id = 1119			R
+id = 1120			R
+id = 1121			R
+id = 1122			R
+id = 1123			R
+id = 1124			R
+id = 1125			R
+id = 1126			R
+id = 1127			R
+id = 1128			R
+id = 1129			R
+id = 1130			R
+id = 1131			R
+id = 1132			R
+id = 1133			R
+id = 1134			R
+id = 1135			R
+id = 1136			R
+id = 1137			R
+id = 1138			R
+id = 999996			R
+id = 999995			R
+
+#########################
+#	FOLDER:	grants 1 	#
+#########################
+
+id = 100000			R
+id = 100001			R
+id = 100002			R
+id = 100013			R
+id = 100003			R
+id = 100004			R
+id = 100003			R
+id = 100005			R
+id = 100006			R
+id = 100005			R
+id = 100007			R
+id = 100008			R
+id = 100007			R
+id = 100009			R
+
+#########################
+#	FOLDER:	grants 2 	#
+#########################
+
+id = 100001			R
+id = 100002			R
+id = 100004			R
+id = 100006			R
+id = 100008			R
+id = 100003			R
+id = 100005			R
+id = 100007			R
+id = 100009			R
+id = 100010			R
+id = 100013			R
+
+#############################
+#	FOLDER:	GreatPowers 	#
+#############################
+
+#id = 19000			R
+id = 19005			R
+id = 19010			R
+id = 19020			R
+id = 19022			R
+id = 19023			R
+id = 19024			R
+id = 19025			R
+id = 19026			R
+id = 19027			R
+id = 19028			R
+id = 19029			R
+id = 19030			R
+id = 19031			R
+id = 19032			R
+id = 19033			R
+id = 19040			R
+id = 19041			R
+id = 19042			R
+id = 19043			R
+id = 19044			R
+id = 19045			R
+id = 19046			R
+id = 19047			R
+id = 19200			R
+id = 19300			R
+id = 19310			R
+id = 19320			R
+id = 19355			R
+
+#####################################
+#	FOLDER:	host_decision_events	#
+#####################################
+
+id = 476008			Unsiege System event to START the unsiege (or not if triggered by AI)
+
+#####################################
+#	FOLDER:	host_decision_events	#
+#####################################
+
+id = 476009			Kick player decision 
+
+#############################################
+#	FOLDER:	ideological_country_modifiers 	#
+#############################################
+
+id = 7771010		R
+id = 7771011		R
+id = 7771012		R
+id = 7771013		R
+id = 7771014		R
+id = 7771015		R
+id = 7771016		R
+id = 7771017		R
+id = 7771018		R
+id = 7771019		R
+id = 7771020		R
+id = 7771021		R
+id = 7771022		R
+id = 7771023		R
+
+#################################
+#	FOLDER:	Immigration 7765xx 	#
+#################################
+
+#id = 776543		R
+
+#####################
+#	FOLDER:	infamy 	#
+#####################
+
+id = 12341234		R
+id = 123412345		R
+
+##########################
+#	FOLDER:	Irish woes	 #
+##########################
+
+id = 1010011		R
+id = 1010012		R
+id = 1010013		R
+id = 1010014		R
+id = 1010015		R
+id = 1010016		R
+id = 1010020		R
+id = 1010021		R
+id = 1010022		R
+
+#####################################
+#	FOLDER:	Japan_decision_events	#
+#####################################
+
+id = 7770001		R
+id = 7770002		R
+id = 7770003		R
+id = 476005			Ikawara Mission gets accepted by GP Event giving 1/3 of a year of Research Points to Japan
+
+#####################################
+#	FOLDER:	LandTransfersCanada 	#
+#####################################
+
+id = 1234121		R
+id = 1234122		R
+id = 1234123		R
+id = 1234124		R
+id = 1234125		R
+id = 1234126		R
+
+##################################
+#	FOLDER:	LiberalRevolutions	 #
+##################################
+
+id = 10001			R
+id = 10000			R
+id = 10051			R
+id = 10050			R
+id = 10100			R
+id = 10105			R
+id = 10110			R
+id = 10120			R
+id = 10130			R
+id = 10140			R
+id = 10150			R
+id = 10160			R
+id = 10170			R
+id = 10180			R
+id = 10190			R
+id = 10200			R
+id = 10210			R
+id = 10220			R
+id = 10230			R
+id = 10240			R
+id = 10250			R
+id = 10260			R
+id = 10270			R
+id = 10280			R
+id = 10290			R
+id = 10300			R
+id = 10310			R
+id = 10330			R
+
+##################################
+#	FOLDER:	Liferating 7766xx	 #
+##################################
+
+id = 776603			R
+id = 776604			R
+id = 776605			R
+id = 776606			R
+id = 776607			R
+id = 776608			R
+id = 776609			R
+id = 776610			R
+id = Ryan U R A N U S
+
+##############################
+#	FOLDER:	LiteracyFixes	 #
+##############################
+
+id = 123412346		R
+id = 123412347		R
+id = 123412348		R
+id = 123412349		R
+
+##########################
+#	FOLDER:	MEXFlavor	 #
+##########################
+
+id = 44800			R
+id = 44801			R
+id = 44802			R
+id = 44803			R
+id = 44825			R
+id = 44826			R
+id = 44827			R
+
+######################
+#	FOLDER:	money	 #
+######################
+
+id = 99999999999	R
+
+##################################
+#	FOLDER:	NationalUnification	 #
+##################################
+
+id = 11100			R
+id = 11101			R
+id = 11103			R
+id = 476006			R
+id = 476007			R
+
+##################################
+#	FOLDER:	NaturalDisasters	 #
+##################################
+
+id = 21500			R
+id = 21510			R
+id = 21520			R
+id = 21530			R
+id = 21540			R
+id = 21550			R
+
+##########################
+#	FOLDER:	NobelPrize	 #
+##########################
+
+id = 23450			R
+id = 23451 			R
+id = 23452 			R
+id = 23453 			R
+id = 23454 			R
+id = 23455 			R
+id = 23456 			R
+id = 23457 			R
+id = 23458 			R
+id = 23459 			R
+id = 23460			R
+id = 23461			R
+id = 23462			R
+id = 23463			R
+id = 23464			R
+id = 23465			R
+id = 23466			R
+id = 23467			R
+id = 23468			R
+id = 23469			R
+id = 23470			R
+id = 23471			R
+id = 23472			R
+id = 23473			R
+id = 23474			R
+id = 23475			R
+id = 23476			R
+id = 23477			R
+id = 23478			R
+id = 23479			R
+id = 23480			R
+id = 23481			R
+id = 23482			R
+id = 23483			R
+id = 23484			R
+id = 23485			R
+id = 23491 			R
+id = 23492 			R
+id = 23493 			R
+id = 23494 			R
+id = 23495 			R
+id = 23496 			R
+id = 23497 			R
+id = 23498 			R
+id = 23499 			R
+id = 23500			R
+id = 23501			R
+id = 23502			R
+id = 23503			R
+id = 23504			R
+id = 23505			R
+id = 23506			R
+id = 23507			R
+id = 23508			R
+id = 23509			R
+id = 23510			R
+id = 23511			R
+id = 23512			R
+id = 23513			R
+id = 23514			R
+id = 23515			R
+id = 23516			R
+id = 23517			R
+id = 23518			R
+id = 23519			R
+id = 23520			R
+id = 23521			R
+id = 23522			R
+id = 23523			R
+id = 23524			R
+id = 23525			R
+id = 23531 			R
+id = 23532 			R
+id = 23533 			R
+id = 23534 			R
+id = 23535 			R
+id = 23536 			R
+id = 23537 			R
+id = 23538 			R
+id = 23539 			R
+id = 23540			R
+id = 23541			R
+id = 23542			R
+id = 23543			R
+id = 23544			R
+id = 23545			R
+id = 23546			R
+id = 23547			R
+id = 23548			R
+id = 23549			R
+id = 23550			R
+id = 23551			R
+id = 23552			R
+id = 23553			R
+id = 23554			R
+id = 23555			R
+id = 23556			R
+id = 23557			R
+id = 23558			R
+id = 23559			R
+id = 23560			R
+id = 23561			R
+id = 23562			R
+id = 23563			R
+id = 23564			R
+id = 23565			R
+id = 23571 			R
+id = 23572 			R
+id = 23573 			R
+id = 23574 			R
+id = 23575 			R
+id = 23576 			R
+id = 23577 			R
+id = 23578 			R
+id = 23579 			R
+id = 23580			R
+id = 23581			R
+id = 23582			R
+id = 23583			R
+id = 23584			R
+id = 23585			R
+id = 23586			R
+id = 23587			R
+id = 23588			R
+id = 23589			R
+id = 23590			R
+id = 23591			R
+id = 23592			R
+id = 23593			R
+id = 23594			R
+id = 23595			R
+id = 23596			R
+id = 23597			R
+id = 23598			R
+id = 23599			R
+id = 23600			R
+id = 23601			R
+id = 23602			R
+id = 23603			R
+id = 23604			R
+id = 23605			R
+id = 23611 			R
+id = 23612 			R
+id = 23613 			R
+id = 23614 			R
+id = 23615 			R
+id = 23616 			R
+id = 23617 			R
+id = 23618 			R
+id = 23619 			R
+id = 23620			R
+id = 23621			R
+id = 23622			R
+id = 23623			R
+id = 23624			R
+id = 23625			R
+id = 23626			R
+id = 23627			R
+id = 23628			R
+id = 23629			R
+id = 23630			R
+id = 23631			R
+id = 23632			R
+id = 23633			R
+id = 23634			R
+id = 23635			R
+id = 23636			R
+id = 23637			R
+id = 23638			R
+id = 23639			R
+id = 23640			R
+id = 23641			R
+id = 23642			R
+id = 23643			R
+id = 23644			R
+id = 23645			R
+
+
+##########################
+#	FOLDER:	NZLFlavor	 #
+##########################
+
+id = 999101			R
+
+######################
+#	FOLDER:	OnAction #
+######################
+
+id = 70000			R
+id = 70001			R
+
+#######################
+#	FOLDER:	PERFlavor #
+#######################
+
+id = 40000			R
+
+#########################################
+#	FOLDER:	Player Goldmines 7770xx 	#
+#########################################
+
+id = 777700 # France
+id = 777701 # Spain
+id = 777702 # Portugal
+id = 777703 # Belgium
+id = 777704 # Netherlands
+id = 777705 # United Kingdom
+id = 777706 # Switzerland
+id = 777707 # Sweden
+id = 777708 # Serbia
+id = 777709 # Wallachia
+id = 777710 # Moldavia
+id = 777711 # Greece
+id = 777712 # Ottomans
+id = 777713 # Egypt
+id = 777714 # Persia
+id = 777715 # Russia
+id = 777716 # Brazil
+id = 777717 # Colombia
+id = 777718 # Haiti
+id = 777719 # Bolivia
+id = 777720 # Peru
+id = 777721 # Argentina
+
+######################################
+#	FOLDER:	POD_PUIRCountryEvents	 #
+######################################
+
+id = 44325			R
+id = 36960			R
+id = 36961			R
+id = 36962			R
+id = 95255			R
+id = 97125			R
+id = 1234127		R
+id = 1234128		R
+
+#########################
+#	FOLDER:	PRGFlavor 	#
+#########################
+
+id = 40100			R
+#id = 40101			R
+
+#########################################
+#	FOLDER:	PUIR_AIColonialTensions 	#
+#########################################
+
+id = 200001			R
+id = 200002			R
+id = 200003			R
+
+#############################################
+#	FOLDER:	PUIR_ColonisationNotifications 	#
+#############################################
+
+id = 200010 		R
+id = 200011 		R
+
+#################################
+#	FOLDER:	PUIR_UkraineGrowth	#
+#################################
+
+id = 200012			R
+id = 200013			R
+
+#################################
+#	FOLDER:	RGOChangeEvents 	#
+#################################
+
+id = 199936			R
+id = 199937			R
+
+##########################################
+#	FOLDER:	starting_stockpile_events	 #
+##########################################
+
+id = 9999910		R
+
+##################################
+#	FOLDER:	statue_of_liberty	 #
+##################################
+
+id = 7771001		R
+
+#########################
+#	FOLDER:	Taiping 	#
+#########################
+
+#id = 160001		R
+#id = 160002		R
+#id = 160502		R
+#id = 160503		R
+
+##########################
+#	FOLDER:	TURFlavor	 #
+##########################
+
+id = 31100			R
+id = 31101			R
+#id = 31102			R
+
+######################################
+#	FOLDER:	Unciv_RP_Conquest_fix	 #
+######################################
+
+id = 90905			R
+id = 90908			R
+id = 90906			R
+id = 90907			R
+
+##########################################
+#	FOLDER:	Unciv-Vassal Tech 7768xx	 #
+##########################################
+
+id = 776801			R
+id = 776802			R
+id = 776803			R
+id = 776804			R
+id = 776805			R
+id = 776806			R
+id = 776808			R
+id = 776809			R
+id = 776810			R
+id = 776811			R
+id = 776812			R
+id = 776813			R
+id = 776815			R
+id = 776816			R
+id = 776817			R
+id = 776818			R
+id = 776819			R
+id = 776820			R
+
+#################################
+#	FOLDER:	WorkPlaceEvents 	#
+#################################
+
+id = 12120			Add blood and iron mine to one province or gain -1 militancy for all labourers
+
+##################################################################################################################

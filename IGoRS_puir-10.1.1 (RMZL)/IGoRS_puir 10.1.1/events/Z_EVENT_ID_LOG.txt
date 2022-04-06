@@ -1,8 +1,0 @@
-id = 476001		GCO_core_disposal				To dispose the cores of Ecuador
-id = 476002		GCO_core_disposal				To dispose the cores of Ecuador
-id = 476003		GCO_core_disposal				To dispose the cores of Ecuador
-id = 476004		GCO_core_disposal				To dispose the cores of Ecuador
-
-id = 476005		Japan_decision_events			Ikawara Mission gets accepted by GP Event 
-		
-id = 476009		host_decision_events			Unsiege System event to unsiege (or not if AI)

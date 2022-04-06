@@ -1,8 +1,66 @@
-Last update 27.02.22
+Last update 06.04.22
+
+Changes for 10.2.1 - Minor Update
+
+----UNCIVS----
+-Increase Maneuver of unciv cavalary by 1 (from 2 to 3)
+-Uncivs are now able to gain the mobilization inventions from military science techs
+	-personnel_category_tables is time gated behind the year 1865	(1% mobo buff)
+		/This is so to give China more fighting back capability and should soften the shock of technological progression (machine guns)
+		and hopefully delay crippeling damage to a certain extend aswell as making military plans an above garbage tier tech to take
+-Uncivs now have a base leadership gain of 0.25 (previously none)
+	/This is to give China that minimal extra chance to gain a decent General/Admiral
+
+----NAVY----
+-Reworked navy tech dates
+-Reworked the supply consumption of all ships except for frigets and Manowars
+-Changed the set up of the North sea sea tiles and adjusted the landing adjancencies 
+-Increased navy speeds by 
+	+2 for Battleships / Heavy Cruiser / Light Cruisers / Destoyers
+	+1 for Ironclads / Commerce Raiders
+	
+----EGYPT----	
+-Egypt now starts westerniyed and with a new set of starting techs
+	/in Military tech		/All LVL-1
+	/in Naval	 tech		/Post-Nelsonian Thought / Clipper Design / Naval Design Bureaus
+	/in Commerce tech		/No Standard / Guild-based production													
+	/in Culture	 tech		/Enlightenment Philosophy / Malthusian thought / The Rights of Man 						
+	/in Industry tech		/Water-wheel Power / Publishing Industry / Mechanized Mining / Basic Chemistry 			
+		
+----FRANCE----	
+-France +1 LR in Northwest	(Loire, Region-Centre, Bretagne, Normandy, Ile de France)
+
+----BALANCE AND GAMEPLAY----
+-Tanks now need 2 times the tanks for supply + ammunition equal to artillery 2/3 of artillery supply consumption
+-Increased Tank Attack and Defense by 7 (now slightly stronger than meta stacks)
+-Increased Tank unit speed by 1kph 
+-split Croatia into slavonia and Dalmatia 
+-Removed battle WS from Wars
+-Removed Ticker WS from Wars
+	/occupations and blockades are now the deciding value since those are more consistent and both easily addable and removable
+	/all wars will now be finalized by the player surrendering and no longer by arbittrary number counters
+-Inventions activating industrial or military factories have a 5 times higher activation chance on all factors
+	(chance invention cucking is less likely/severe)
+-Fixed militancy hit via unfulfilled wargoal (penalty_factor in cb_types)
+-Removed bab-el-mandep and sunda strait
+-Replaced all ship supply consumption bonuses from straits with 0.05 tax efficiency bonuses
+
+----GAME QUALITY AND BUG FIXES----
+-Set minimum mil spending from milyutins army reform (RUS) to 31%
+	/Now the player will always get the soldier promotion bonus from above 30% mil spending
+-Slightly changed the sea tile borders between the Straits of Dover and the Dogger Bank
+	/Makes it clear which sea tile controls the crossing	
+-Made all Alaskan provinces port provinces
+-Implimented vicuni Ghost nation unit auto delete	 (FULL KREDIT TO KEVIN)	
+-Tariff Hotfix boost renamed to Tariff Boost
+-Fixed  broken adjacency from Changzou (China) to Lae (Papua new gunea)
+-Removed outdated ship design
+-Lichtenstein now has 9.9 monthly diplo point generation
+
+----------------------------------------------------------
 Changes for 10.1.1 - Minor Update
 
 ----GAME QUALITY AND BUG FIXES----
-
 -Deactivated a lot of generic decisions for Lichtenstein
 -Checked and cleaned all european meme river crossings
 -The three Checks Graphic now uses the new host nation flag
@@ -22,18 +80,15 @@ Changes for 10.1.1 - Minor Update
 -Fixed HAN and HAM laps decision localisation
 
 ----NGF----
-
 -NGF automatic laps formation is now delayed to 1865 (assuming no manual annexations)
 -NGF nation annexation is now 2.5 Infamy for every NGF minor under 100k pops
 
 ----AUSTRIA----
-
 -Removed the prestige requirement for accept croat and slovene for KUK
 -Removed the requirement for KUK to not own parts of bavaria to gain croatian accepted
 -Austria Hungary can now form once Italy formed
 
 ----North and South America----
-
 -Combined US States
 -Venezuela State overhaul(Miranda and Bolivar state united and two provinces split of to Zulia state)
 			(VNZ consists now of two ~200k pop states)
@@ -42,16 +97,13 @@ Changes for 10.1.1 - Minor Update
 -Reverted the Paraguay 5% mobo buff but ALL South American nations start now with -200 relations (unable to ally it)
 
 ----OTTOMANS----
-
 -Ottomans no longer lose their cores on europe when choosing for the Arabian route	(Full credit to Pancake)
 
 ----ITALY----
-
 -Removed all LR gain from the Italy formation
 -Slowed the Italian formation (6 instead of 4 year jumps between formation dates) (from 40-44-48-52-56 to 42-48-54-60-66) 
 
 ----INDIA----
-
 -Switched provinces between India and the UK so they allign well with State lines (reduces enclave/exclave issues)
 -Slightly adjusted the State borders of The united provinces and Bihar for focus point use balance
 
@@ -67,7 +119,6 @@ Changes for 10.1.1 - Minor Update
 -uncivilized isolationism now gives a -0.05 War exhaustion buff and no longer reduces pop conciousness by -0.05
 
 ----OTHER GAMEPLAY CHANGES----
-
 -Added new Straits and edited the existing bonuses to make sure over 100% taxation into starvation cant happen anymore
 
 	-new Straits
@@ -92,15 +143,15 @@ Changes for 10.1.1 - Minor Update
 
 
 
---------------------------
+----------------------------------------------------------
 Changes for 10.0.6 - hotfix
 
 -Atacama region overlap fix
---------------------------
+----------------------------------------------------------
 Changes for 10.0.5 - hotfix
 -Japan cb fix	(cb_cost_factor from 2 to 2.5) (from a minimum of 5 to a minimum of 7 wars to annex japan)
 
---------------------------
+----------------------------------------------------------
 Changes for 10.0.4 - update
 
 -Removed Paraguays 5% LARP mobilization buff (some hpm bullshit event getting them up to 30 mobos)
@@ -116,7 +167,7 @@ Changes for 10.0.4 - update
 -Added new cb (japan concession) to cb execution list
 -ANOTHER Italy formation fix
 
---------------------------
+----------------------------------------------------------
 Changes for 10.0.3 - update
 
 -All new world nation now stat with no Laissez fair parties
@@ -127,7 +178,7 @@ Changes for 10.0.3 - update
 -Added the new concessions cb for Japan to the executions order list
 -Fixed Italy formation
 
---------------------------
+----------------------------------------------------------
 Changes for 10.0.2 - hotfix
 
 -Laissez fair bonuses got reduced to:
@@ -136,7 +187,7 @@ Changes for 10.0.2 - hotfix
 		  
 -fixed a bug breaking the change rgo events
 
---------------------------
+----------------------------------------------------------
 Changes for 10.0.1
 
 ----ITALY----
@@ -248,18 +299,18 @@ Changes for 10.0.1
 -Gave Norfolk island to Australia (Credit to Pancake)
 -Reduced Taveuni Liferating to 15 (Credit to Pancake)
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 9.0.3
 -Fixed nonculture in Urugay
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 9.0.2
 
 -Panama provinces are now Jungle terrain
 -AI is more likely to take Medicine and basic chemistry (Full credit to BestPancakeEver)
 -Removed nonculture from Brunei (Full credit to BestPancakeEver for spotting this)
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 9.0.1
 -Tweaked the goods consumption for the navy update
 -Implimented automatic out of date ship nerfs at 1860/1870/1880/1890/1900 (see inventions Post Nelsonian Thought)
@@ -290,33 +341,33 @@ Changes for 9.0.0
 -Removed a few provinces out of north africa and the middle east (Morocco,Iraq,Syria,Lebanon)
 -Reworked Navy units including inventions and Tech
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.6
 - Fixed a bug with the homestead act decision for the USA.
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.5
 - Fixed an immigration issue.
 - Added additional political parties to Bolivia and Peru-Bolivia.
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.4
 - Fixed a bug causing people to be unable to build offensive artillery.
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.3
 - Named and added a description for a core integration fix province event, aka event 2601.
 - Removed a few leftover cultures from accepted cultures on a few nations that were giving ui errors of noculture.
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.2
 - Fixed a .mod mess up from 8.0.1
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0.1
 - Fixed a problem with argentina OOB
 
-----------------------------------------------------
+----------------------------------------------------------
 Changes for 8.0
 - Locked Liberty national value to only be accessible to new_world_nations and fixed the starting immigrant nations to start with it enabled already. (reduces clutter in decision menu)
 - Added some extra checks in the individual pop files to prevent non-new_world_nation countries from getting immigrants. (Some spill over was occurring)

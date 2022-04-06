@@ -1,0 +1,6 @@
+owner = LCT
+controller = LCT
+trade_goods = grain
+life_rating = 0
+
+set_province_flag = farm

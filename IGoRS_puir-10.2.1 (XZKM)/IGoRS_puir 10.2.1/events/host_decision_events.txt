@@ -1,0 +1,18 @@
+country_event = {
+	id = 476008
+	title = "End of our occupations"
+	desc = "Let us celebrate"
+	picture = "native_force"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sounds good!"
+		THIS = {
+			any_owned = {
+				change_controller = { THIS }
+			}
+		}
+		THIS = { clr_country_flag = unsiege_this }
+	}
+}

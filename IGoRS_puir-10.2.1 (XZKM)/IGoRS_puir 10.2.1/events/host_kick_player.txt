@@ -1,0 +1,18 @@
+#
+#!!!NEVER EVER STORE THE KICK PLAYER DECISION IN A FILE WITH ANOTHER EVENT IT IS POISON!!!
+#FULL KEDIT TO ZOMBIE
+country_event = { 
+	id = 476009 
+	title = "Get kicked"
+	desc = "I am become death destroyer of worlds"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		add_country_modifier = get_kicked_lol
+
+	}
+	option = { 
+	name = "bye"
+	}
+}
